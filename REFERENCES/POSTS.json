@@ -1,0 +1,1014 @@
+{
+  "response": [
+    {
+      "id": 384,
+      "date": "2018-05-01T10:44:39",
+      "date_gmt": "2018-05-01T15:44:39",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=384"
+      },
+      "modified": "2018-05-01T10:44:39",
+      "modified_gmt": "2018-05-01T15:44:39",
+      "slug": "cbd-to-reduce-relapses-in-alcohol-and-drug-addicts",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/cbd-to-reduce-relapses-in-alcohol-and-drug-addicts/",
+      "title": {
+        "rendered": "CBD To Reduce Relapses in Alcohol and Drug Addicts"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-385\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/05/cannabis-drug-relapse.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/05/cannabis-drug-relapse.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/05/cannabis-drug-relapse-300x200.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/05/cannabis-drug-relapse-768x512.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>Study Shows CBD To Be Successful in Reducing Drug Relapses in Animal Models</h2>\n<p><a href=\"https://sailcannabis.co/research/12/161\">CBD, the non-psychoactive cannabinoid</a> and second most well-known cannabinoid to <a href=\"https://sailcannabis.co/research/12/300\">THC</a>, has recently been used in preclinical trials to explore its potentials as an anti-relapse medicine for drug addicts and alcoholics.</p>\n<p>While drug and alcohol addiction is complicated to address, those seeking to prevent further use can be triggered to relapse under stress, or anxiety.</p>\n<p>The recent study authored by Gustavo Gonzalez-Cuevas in collaboration with multiple academics, published in the peer-reviewed journal Neuropsychopharmacology, examined drug-seeking behaviour in relation to anxiety and impulsivity within animal models. Substance abuse and chronic relapses have many root causes, and could potentially be moderated with <a href=\"https://sailcannabis.co/research/12/337\">transdermal</a> CBD.</p>\n<h3>Transdermal CBD As An Avenue To Quell Drug Relapses</h3>\n<p>In the study rats with as self-administered cocaine and alcohol addiction were treated with transdermal CBD for seven days, in 24-hour intervals. These rats were placed under various levels of stress and anxiety, and monitored accordingly.</p>\n<p>The results, transdermal CBD was effective in reducing context-induced, and stress-induced drug seeking behviour in these rats. Additionally, the reduction in drug-seeking behaviour came without any impairment through the use of CBD, along with the the lack of development of any kind of tolerance and any changes normal day-to-day behaviour. Furthermore, five months after CBD treatment had been stopped, these animals still experienced reduced stress-induced relapses. Even more interestingly, while relapses were reduced five months after treatment, CBD only remained detectable within the animals for three days.</p>\n<h3>Research Surrounding CBD’s Therapeutic Potentials Continues to Grow</h3>\n<p>As a result, researchers are confident that this study provides proof of principle, supporting the potentials of CBD in relation to drug relapses, offer benefits to addicts when in a vulnerable state, with lasting effects despite having only a short exposure to treatment. This piece of research contributes to the overall research base surrounding the therapeutic benefits of CBD, and furthering the discussion on CBD as a viable treatment method for a long list of conditions.</p>\n<p><u>Work Cited</u></p>\n<p>Gonzalez-Cuevas G, Martin-Fardon R, Kerr TM, et al. Unique treatment potential of cannabidiol for the prevention of relapse to drug use: preclinical proof of principle. Neuropsychopharmacology. 2018. doi:10.1038/s41386-018-0050-8.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Study Shows CBD To Be Successful in Reducing Drug Relapses in Animal Models CBD, the non-psychoactive cannabinoid and second most well-known cannabinoid to THC, has&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 385,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/384"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=384"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/384/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/385"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=384"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=384"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=384"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 377,
+      "date": "2018-04-23T15:14:30",
+      "date_gmt": "2018-04-23T20:14:30",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=377"
+      },
+      "modified": "2018-04-24T10:58:26",
+      "modified_gmt": "2018-04-24T15:58:26",
+      "slug": "cannabis-essential-oil-effects-on-mood-and-brain-wave-activity",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/cannabis-essential-oil-effects-on-mood-and-brain-wave-activity/",
+      "title": {
+        "rendered": "Cannabis Essential Oil: Effects on Mood and Brain Wave Activity"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-378\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-essential-oil.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-essential-oil.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-essential-oil-300x169.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-essential-oil-768x432.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>A State of Well-Being with Cannabis Essential Oils</h2>\n<p><span style=\"font-weight: 400;\">A recent preliminary study published in the journal of </span><i><span style=\"font-weight: 400;\">Evidence-Based Complementary and Alternative Medicine</span></i><span style=\"font-weight: 400;\"> highlighted the therapeutic values of cannabis essential oils and its effects on brain wave activity and mood. This study entitled </span><i><span style=\"font-weight: 400;\">Cannabis Essential Oil: A Preliminary Study for the Evaluation of the Brain Effects</span></i><span style=\"font-weight: 400;\"> suggests positive relaxation and anxiolytics effects with the inclusion of CEO into therapy, with reports suggesting that CEO can relieve stress and depression, improve mood, and offer an improved state of well-being.</span></p>\n<p><span style=\"font-weight: 400;\">This preliminary study examined the use of CEO in five healthy individuals, with the oil containing primarily the terpenes myrcene and β-caryophyllene along with less than .2 percent THC. The CEO was steam distilled, extracted from fresh cannabis sativa.</span></p>\n<p><span style=\"font-weight: 400;\">Mood states were monitored before, during, and after treatment. Sweet almond oil was used as a placebo, and the CEO was inhaled through the nostrils via soaked gauze. None of the subjects had a diagnosis of cardiovascular disease, with one patient experiencing symptoms of a headache before the study. The study was completed entirely in a private healthcare facility.  </span></p>\n<h3>Supporting Evidence on CEO’s Effect on Mood</h3>\n<p><span style=\"font-weight: 400;\">Results showed decreased diastolic blood pressure, along with an increased heart rate and skin temperatures. Subjects described feelings of relaxation and calmness, as well as increased energy. All subjects reported the inhalation of the CEO was pleasant in nature, reporting feelings of calmness, along with a more relaxed yet energetic mood along with feelings of increased hunger. The one subject who had headache symptoms reported relief of symptoms after administration of the CEO. The study reports that each subject who inhaled the CEO had improved “general well-being.”</span></p>\n<p><span style=\"font-weight: 400;\">The work suggests that these positive effects are likely contributed to the terpenes limonene, myrcene, and β-caryophyllene, which mainly comprised the CEO. These terpenes have reported, specifically, limonene, as the likely cause of the reduced levels of stress, while the β-caryophyllene provides anxiolytic(anxiety reducing) and antidepressant effects. The myrcene likely was the cause of any sedative, pain relieving, and relaxing effects.</span></p>\n<h3>A Case for Further Research</h3>\n<p><span style=\"font-weight: 400;\">While this study is small in nature, further studies with a greater amount of subjects would lead to greater supporting data to support these results. However, the results of this study support the inclusion of CEO in perspective integrated therapy, tailored to relieving stress and depression. This work offers evidence that CEO has an effect on brain wave activity and mood states. Further research is warranted.</span></p>\n<p><u>Work Cited<u></u></u></p>\n<p>Gulluni N, Re T, Loiacono I, et al. Cannabis Essential Oil: A Preliminary Study for the Evaluation of the Brain Effects. Evidence-Based Complementary and Alternative Medicine. 2018;2018:1-11. doi:10.1155/2018/1709182.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>A State of Well-Being with Cannabis Essential Oils A recent preliminary study published in the journal of Evidence-Based Complementary and Alternative Medicine highlighted the therapeutic&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 378,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        8
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/377"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=377"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/377/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/378"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=377"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=377"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=377"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 373,
+      "date": "2018-04-20T11:02:03",
+      "date_gmt": "2018-04-20T16:02:03",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=373"
+      },
+      "modified": "2018-04-20T11:03:01",
+      "modified_gmt": "2018-04-20T16:03:01",
+      "slug": "understanding-cannabis-withdrawal-and-tolerance",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/understanding-cannabis-withdrawal-and-tolerance/",
+      "title": {
+        "rendered": "Understanding Cannabis Withdrawal and Tolerance"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-374\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-tolerance.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-tolerance.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-tolerance-300x188.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-tolerance-768x482.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" />An Introduction To Cannabis Withdrawal and Tolerance</h2>\n<p>Those consuming cannabis as a medicine might be interested to understand the finer points of cannabis tolerance, along with withdrawal symptoms. Cannabis as a medicine affects each person differently, as well as tolerance along with symptoms you might feel when you stop using cannabis altogether. Depending on your age, gender, and weight, the effects of ceasing cannabis use or how you develop a tolerance is largely dependent on the individual patient.</p>\n<h3>Experienced Symptoms As A Result of Ceasing Cannabis Use</h3>\n<p>It’s important for patients to understand the potentials of continued cannabis use, and the resulting symptoms they might experience once they discontinue medicating with cannabis.</p>\n<p>Symptoms associated with cannabis withdrawal are generally mild and non-life threatening.<sup>1</sup> Patients experiencing symptoms from cannabis withdrawal rarely require hospitalization, but regular cannabis users can experience a group of symptoms if their cannabis use ceases abruptly.<sup>2</sup> It’s estimated that 1 in 6, or close to half of regular cannabis users are susceptible to side effects of cannabis withdrawal symptoms.<sup>3</sup></p>\n<p>Symptoms could include, anxiety, depression, decreased appetite or weight loss, as well as restlessness and difficulty sleeping.<sup>4</sup> The inherent problem with cannabis withdrawal symptoms is that patients may continue to consume cannabis simply in an effort to avoid these symptoms.<sup>5</sup></p>\n<p>The severity of such symptoms is dependent on the amount of cannabis use that occurred prior to a patient ceasing treatment, as well as gender, hereditary, and environmental factors.5 Women have reported stronger withdrawal symptoms than men, citing increased nausea and dysmenorrhea, which is painful menstruation, along with IBD.6. It is important to note that these withdrawal symptoms are extremely mild in comparison to other drugs known for abuse, including opiates.<sup>6</sup></p>\n<h3>A Brief Note on Cannabis Tolerance</h3>\n<p>As patients continue their use of cannabis it is possible to develop what could be considered as a tolerance.</p>\n<p>Some studies have shown that “performance impairment,” or the performance of day-to-day tasks during cannabis intoxication is less frequent in cannabis users who are considered heavy users and have already developed a tolerance.<sup>7</sup> Studies have also shown that patients who have a history of prolonged cannabis use can see a reduced response to cannabis.<sup>8</sup> Cannabis tolerance has made it very challenging for many states and provinces to determine a framework of laws for driving under the influence of cannabis.Testing the impairment of drivers who are suspected to be driving under the influence of cannabis continues to be a hot topic for many politicians and members of law enforcement.<sup>9</sup></p>\n<h3>Why Patients Develop a Cannabis Tolerance</h3>\n<p>Cannabis tolerance is likely attributed to CB1 receptor downregulation, which in order to understand, requires a basic understanding of <a href=\"https://sailcannabis.co/research/12/268\">the endocannabinoid system</a>, our body’s system that makes cannabis “work.”</p>\n<p>In the simplest way to understand CB1 downregulation, consider how our cannabis receptors work within our body. These receptors found all over our body bind with cannabinoids like <a href=\"https://sailcannabis.co/research/12/300\">THC</a> and CBD from cannabis, producing the therapeutic effects associated with cannabis.<sup>10</sup></p>\n<p>When our bodies detect higher than usual levels of cannabinoids in our bloodstream, our body responds by producing less cannabinoid receptors on the surface of our nerve cells. In the same way that patients can self-titrate, or moderate their cannabis use to produce the desired effects, our body does the same with our CB1 receptors.<sup>11</sup></p>\n<p>Through CB1 downregulation, our body is actually self-titrating its own ability to bind with cannabinoids that are in our body ingested due to cannabis consumption. If our body detects that there are too many CB1 receptors binding with cannabinoids like THC and <a href=\"https://sailcannabis.co/research/12/161\">CBD</a>, our body adjusts, limiting the effects of cannabis and decreasing the amount of available receptors that can bind to cannabinoids.<sup>12</sup></p>\n<p><u>Works Cited</u></p>\n<p>1.Ramesh D, Schlosburg JE, Wiebelhaus JM, Lichtman AH. Marijuana Dependence: Not Just Smoke and Mirrors. ILAR Journal. 2011;52(3):295-308. doi:10.1093/ilar.52.3.295.<br />\n2. “”<br />\n3. “”<br />\n4. “”<br />\n5. “”<br />\n6. “”<br />\n7. Ramaekers JG, Wel JHV, Spronk DB, et al. Erratum: Erratum: Cannabis and tolerance: acute drug impairment as a function of cannabis use history. Scientific Reports. 2016;6(1). doi:10.1038/srep31939.<br />\n8. “”<br />\n9. Cooper I. Marijuana impairment will be difficult to prove and prosecute. Toronto Star. https://www.thestar.com/opinion/commentary/2017/10/31/marijuana-impairment-will-be-difficult-to-prove-and-prosecute.html. Published October 31, 2017. Accessed April 18, 2018.<br />\n10. How Tolerance Works: The Biology of Cannabis Tolerance and Receptor Downregulation. Quality Concentrates. http://www.qualityconcentrates.com/2017/03/tolerance/. Published March 8, 2017. Accessed April 18, 2018.<br />\n11.””<br />\n12.””</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>An Introduction To Cannabis Withdrawal and Tolerance Those consuming cannabis as a medicine might be interested to understand the finer points of cannabis tolerance, along&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 374,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/373"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=373"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/373/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/374"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=373"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=373"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=373"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 368,
+      "date": "2018-04-12T13:51:48",
+      "date_gmt": "2018-04-12T18:51:48",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=368"
+      },
+      "modified": "2018-04-12T13:51:48",
+      "modified_gmt": "2018-04-12T18:51:48",
+      "slug": "the-differences-between-medical-patients-and-recreational-cannabis-users",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/the-differences-between-medical-patients-and-recreational-cannabis-users/",
+      "title": {
+        "rendered": "The Differences Between Medical Patients, and Recreational Cannabis Users"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-369\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-patient-recreational-user.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-patient-recreational-user.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-patient-recreational-user-300x222.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-patient-recreational-user-768x568.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>The Dividing Line Between a Cannabis Patient, and Recreational Users</h2>\n<p>A common question that often arises from many potential medical cannabis patients is what differentiates between a patient, and a recreational cannabis user.</p>\n<p>The markets are distinctly different, yet similar in many ways. More obviously, both markets include the consumption of cannabis, but with two arising markets in the United States, Canada, and Europe, it’s important understand the differences between the two, and what market you are best suited for.</p>\n<h3>Finding Relief With Medical Cannabis</h3>\n<p>Medical cannabis patients are often looking to medicate a specific condition, seeking relief from a long list of ailments with cannabis. Many patients are looking to manage <a href=\"https://sailcannabis.co/research/4/288\">chronic pain</a> with cannabis, along with addressing seizures attributed to epilepsy, symptoms as the result of chemotherapy, as well as mood disorders including anxiety and depression.<sup>1 2</sup> The list of conditions that cannabis can address are long and continually growing, as clinically validated research continues to grow.<sup>3</sup></p>\n<p>However, what works for one patient does not always work for another, and medical patients are often set out on their own personal cannabis journey that may require trial and error, careful journaling, advice from more experienced users, along with tools to help them decide on cannabis strains or products.</p>\n<p>Often, patients who are new to the medicine are experimenting with cannabis for the first time, likely after other treatment options have failed.<sup>4</sup> Patients using medical cannabis might be seeking an alternative to things like opiates to manager their chronic pain, and wish to not experience the harmful side effects to opiates; specifically the potential for addiction and the possibility of a deadly overdose.<sup>5</sup></p>\n<p>Recreational users are generally not looking to medicate any sort of condition with cannabis, but instead are looking to obtain a “high” from the cannabis they are consuming. In turn, recreational users will undoubtedly be looking for cannabis strains and products that contain <a href=\"https://sailcannabis.co/research/12/300\">THC</a>, the cannabinoid that produces psychoactive effects, or the high associated with cannabis. Medical patients however might be best suited to utilize strains that have contain more <a href=\"https://sailcannabis.co/research/12/347\">CBD</a> than THC, utilizing the therapeutic benefits of cannabis with limited psychoactive effects.<sup>6</sup></p>\n<h3>Medical Cannabis Markets and Speciality Products</h3>\n<p>Medical cannabis patients generally have more specialized needs in order to find relief without intoxication. Patients looking to manage their chronic pain can utilize THC, but may also find relief with the non-psychoactive cannabinoid known as CBD.<sup>7</sup> This cannabinoid allows patients to medicate while living a normal day-to-day life without impairment.<sup>8</sup> Patients however might find that THC is a better option to aid in their condition, and can reduce the psychoactive effects of the cannabinoid through <a href=\"https://sailcannabis.co/research/12/311\">the process of microdosing</a>.<sup>9</sup></p>\n<p>Medical cannabis patients are also strongly encouraged to reduce the harmful effects of smoking their medicine by vaporizing instead.<sup>10</sup> This reduces the harmful carcinogens that are including in inhaling harmful smoke, while still taking advantage of the whole plant medicine of cannabis.</p>\n<p>Additionally, patients might consider other methods of consumption that are completely smokeless, using edible cannabis products to medicate, along with tinctures, gel caps, and salves.<sup>11</sup> These products are generally more specialized in comparison to the needs of the recreational market, and can include concentrates and oils tailored to the needs of a medical patient.</p>\n<p>Recreational users of course can also vaporize dried cannabis, however this market is typically known for smoking of the herb. These users often use rolling papers to create what is known as a “joint,” use glass pipes, as well as water pipes or bongs to consume cannabis.</p>\n<h3>Educating The Public on Cannabis</h3>\n<p>There is a dire need to inform the public of the key differences between the two markets, especially for places that are rolling out new laws and expanding on both recreational and medical frameworks. Even recreational users need to be educated on the medicinal benefits of cannabis, so these users can make informed decisions on what products to use, and avert potential missteps with things like cannabis strains and products that are extremely high in THC.</p>\n<p><span style=\"text-decoration: underline;\">Works Cited</span></p>\n<p>1. Ramkellawan S, Bober S, Mindra S, Moreau J, Ko G. Medical cannabis: the Canadian perspective. Journal of Pain Research. 2016;Volume 9:735-744. doi:10.2147/jpr.s98182.<br />\n2. Stockings E, Zagic D, Campbell G, et al. Evidence for cannabis and cannabinoids for epilepsy: a systematic review of controlled and observational evidence. Journal of Neurology, Neurosurgery &amp; Psychiatry. June 2018. doi:10.1136/jnnp-2017-317168.<br />\n3. Earleywine M. Medical Marijuana. Understanding Marijuana. 2003:167-196. doi:10.1093/acprof:oso/9780195138931.003.0008.<br />\n4. Sirven JI. Medical marijuana for epilepsy: Winds of change. Epilepsy &amp; Behavior. 2013;29(3):435-436. doi:10.1016/j.yebeh.2013.09.004.<br />\n5. Reiman A, Welty M, Solomon P. Cannabis as a Substitute for Opioid-Based Pain Medication: Patient Self-Report. Cannabis and Cannabinoid Research. 2017;2(1):160-166. doi:10.1089/can.2017.0012.<br />\n6. Iffland K, Grotenhermen F. An Update on Safety and Side Effects of Cannabidiol: A Review of Clinical Data and Relevant Animal Studies. Cannabis and Cannabinoid Research. 2017;2(1):139-154. doi:10.1089/can.2016.0034.<br />\n7. “”<br />\n8. “”<br />\n9. Wilsey B, Marcotte T, Deutsch R, Gouaux B, Sakai S, Donaghe H. Low-Dose Vaporized Cannabis Significantly Improves Neuropathic Pain. The Journal of Pain.<br />\n10. Loflin M, Earleywine M. No smoke, no fire: What the initial literature suggests regarding vapourized cannabis and respiratory risk. Canadian Journal of Respiratory Therapy. 2015;51(1):7-9.<br />\n11. Barrus D, Capogrossi K, Cates S, et al. Tasty THC: Promises and Challenges of Cannabis Edibles. 2016. doi:10.3768/rtipress.2016.op.0035.1611.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>The Dividing Line Between a Cannabis Patient, and Recreational Users A common question that often arises from many potential medical cannabis patients is what differentiates&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 369,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/368"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=368"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/368/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/369"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=368"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=368"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=368"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 362,
+      "date": "2018-04-12T13:20:09",
+      "date_gmt": "2018-04-12T18:20:09",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=362"
+      },
+      "modified": "2018-04-12T13:20:09",
+      "modified_gmt": "2018-04-12T18:20:09",
+      "slug": "where-to-begin-with-medical-cannabis",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/where-to-begin-with-medical-cannabis/",
+      "title": {
+        "rendered": "Where to Begin With Medical Cannabis"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-363\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-300x200.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-768x512.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>Starting Your Journey With Medical Cannabis</h2>\n<p>It’s likely that if you are reading this, you have some sort of interest in medical cannabis; whether experienced or brand new to the medicine, there is much to learn on the topic. So, where to begin?</p>\n<p>With medical cannabis being legal in more than half the states in the U.S.A., as well as looming recreational legalization in Canada, stigmas associated with cannabis will likely dissipate. No longer will cannabis be such a contentious topic in society, and the “stoner” culture often associated with a cannabis will soon be no more. Over time, cannabis will become a normalized part of North American society.</p>\n<h3>Qualifying Conditions For Medical Cannabis</h3>\n<p>For patients who are completely new to cannabis, your journey with this medicine likely starts with a qualifying condition. Each state that has legalized medical cannabis has a different list of qualifying conditions for patients, in which a doctor can recommend cannabis for. In Canada, qualifying conditions and the language surrounding it are different than the U.S., and patients are prescribed cannabis rather than recommended.<sup>1</sup></p>\n<p>To make matters even more complex, each state has different regulations regarding how patients can consume, grow, and obtain this medicine. For example, in Massachusetts, patients are allowed to possess a 60-day supply of dried cannabis, which is according to the state, is 10 ounces, or the equivalent in other forms such as edible products. However in the state of Pennsylvania, the dried herb was unavailable to patients until recently, leaving patients and to obtain medical cannabis in the form of pills, oils, topical creams, tinctures, and liquids.<sup>2 3 </sup></p>\n<p>It’s up to you the patient to ensure that you are aware of your state-specific medical cannabis laws, and you are obtaining cannabis and <a href=\"https://sailcannabis.co/research/12/155\">medicating legally</a>.</p>\n<h3>Obtaining a Medical Cannabis Recommendation</h3>\n<p>The next step is to obtain a recommendation for medical cannabis from a doctor. In Canada, it’s a prescription, but in the U.S.A., doctors recommend you for the state’s cannabis program. While your family physician can recommend cannabis to you, its best to visit a cannabis clinic in your neighborhood and allow them to assess whether or not you are a fit for medical cannabis. Many family physicians are hesitant to recommend cannabis to their patients for a long list of reasons, citing a lack of clinical resources, education on the topic, or general hesitance attributed to stigma.</p>\n<p>You will likely need to prove you have a qualifying condition under your state’s regulations, so bringing along medical records can assist greatly in this process.</p>\n<p>After completion of this process, you will receive the appropriate paperwork or card, and you will be able to purchase cannabis products from a state-licensed or approved dispensary or supplier. In Canada however, medical cannabis is purchased solely online through licensed producers and then shipped to a patient’s home.<sup>4  </sup></p>\n<p><span style=\"text-decoration: underline;\">Works Cited</span></p>\n<p>1. The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research. Washington DC: National Academies of Sciences, Engineering, and Medicine; Health and Medicine Division; Board on Population Health and Public Health Practice; Committee on the Health Effects of Marijuana: An Evidence Review and Research Agenda.; 2017.<br />\n2. Medical Use of Marijuana laws, regulations, and reports. Mass.gov. https://www.mass.gov/lists/medical-use-of-marijuana-laws-regulations-and-reports. Accessed April 12, 2018.<br />\n3. Pennsylvania Medical Marijuana Program. PA.gov. https://www.pa.gov/guides/pennsylvania-medical-marijuana-program/. Accessed April 12, 2018.<br />\n4. Understanding the New Access to Cannabis for Medical Purposes Regulations. Canada.ca. https://www.canada.ca/en/health-canada/services/publications/drugs-health-products/understanding-new-access-to-cannabis-for-medical-purposes-regulations.html. Published September 30, 2016. Accessed April 12, 2018.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Starting Your Journey With Medical Cannabis It’s likely that if you are reading this, you have some sort of interest in medical cannabis; whether experienced&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 363,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/362"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=362"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/362/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/363"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=362"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=362"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=362"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 358,
+      "date": "2018-04-12T10:49:01",
+      "date_gmt": "2018-04-12T15:49:01",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=358"
+      },
+      "modified": "2018-04-12T10:49:01",
+      "modified_gmt": "2018-04-12T15:49:01",
+      "slug": "exploring-the-benefits-of-sublingual-cannabis-consumption",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/exploring-the-benefits-of-sublingual-cannabis-consumption/",
+      "title": {
+        "rendered": "Exploring The Benefits of Sublingual Cannabis Consumption"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-359\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-tincture.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-tincture.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-tincture-300x169.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-tincture-768x432.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>Discrete and Accurate Medical Cannabis Consumption</h2>\n<p>Medical cannabis patients are likely overwhelmed with options on <a href=\"https://sailcannabis.co/research/12/155\">ways to consume cannabis products</a>. However, sublingual consumption is often overlooked despite it offering the discreteness of an edible along with the speedy onset that is experienced by <a href=\"https://sailcannabis.co/research/12/319\">vaporization</a>.</p>\n<p>By consuming alcohol infused cannabis sublingually, or under the tongue, this method offers a safe and smoke-free approach to medicating. Cannabis infused alcohol is delivered via a dropper or tincture, entering the bloodstream directly through blood vessels under the tongue.<sup>1</sup></p>\n<h3>Find Dosages That Work For You With Cannabis Tinctures</h3>\n<p>Typically tinctures are alcohol based, extracted with ethanol, however, vinegar and glycerine can also be used as a tincture.<sup>2</sup> These extracts that are dropped under the tongue, and over a short period of time, are absorbed by the branches within the lingual artery, as well as the sublingual and deep lingual artery.<sup>3</sup></p>\n<p>For patients who are unsure of proper dosing of medical cannabis, tinctures allow patients to titrate, administering small doses and deciding if each dose produces the desired effects. The tinctures themselves are not designed to be swallowed, as they would produce similar effects of an edible cannabis product.</p>\n<p>The plus-side of tinctures is that the onset of effects occurs quickly, leaving out the possibility of error that is tied to edible cannabis products. Edibles generally take upwards of an hour to produce effects, making the process of dosing complicated and more difficult to gauge. Often patients are inclined to consume more edible products, which can sometimes result in over-consumption. <sup>4</sup></p>\n<p>Tinctures can also be added to foods including beverages, smoothies, or even full meals.</p>\n<h3>Creating Your Own Cannabis Tinctures</h3>\n<p>Tinctures can be created at home as well. Typically <a href=\"https://sailcannabis.co/research/12/325\">decarboxylated cannabis</a> is infused with high proof alcohol in a jar for anywhere between two weeks to two months. Then, the alcohol and cannabis are pushed through a strainer, removing any dried herb. Patients can then store the remaining alcohol, and consume this alcohol via tincture.</p>\n<p>For tincture recipes, click <a href=\"https://gizmodo.com/how-to-brew-cannabis-tinctures-eyedroppers-full-of-hap-1598753173\">here</a>.</p>\n<p>Works Cited<br />\n1. Ramkellawan S, Bober S, Mindra S, Moreau J, Ko G. Medical cannabis: the Canadian perspective. Journal of Pain Research. 2016;9:735-744. doi:10.2147/jpr.s98182.<br />\n2. “”<br />\n3. “”<br />\n4. Barrus D, Capogrossi K, Cates S, et al. Tasty THC: Promises and Challenges of Cannabis Edibles. 2016. doi:10.3768/rtipress.2016.op.0035.1611</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Discrete and Accurate Medical Cannabis Consumption Medical cannabis patients are likely overwhelmed with options on ways to consume cannabis products. However, sublingual consumption is often&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 359,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/358"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=358"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/358/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/359"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=358"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=358"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=358"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 347,
+      "date": "2018-04-06T10:32:13",
+      "date_gmt": "2018-04-06T15:32:13",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=347"
+      },
+      "modified": "2018-04-06T10:36:49",
+      "modified_gmt": "2018-04-06T15:36:49",
+      "slug": "the-value-of-cannabis-strains-high-in-cbd",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/the-value-of-cannabis-strains-high-in-cbd/",
+      "title": {
+        "rendered": "The Value of Cannabis Strains High In CBD"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-349\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-strains-high-in-CBD.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-strains-high-in-CBD.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-strains-high-in-CBD-300x199.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-strains-high-in-CBD-768x510.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>Find Healing with Cannabis Strains High In CBD</h2>\n<p>Cannabis has been largely tied to the high that many users and patients experience when consuming the dried herb. <a href=\"https://sailcannabis.co/research/12/300\">THC</a> is the cannabinoid that produces the psychoactive effect of cannabis. Among recreational users, cannabis strains with high concentrations of THC have often been the most sought after, producing a potent high along with a long list of medical effects. However for patients looking for relief rather than intoxication, cannabis strains that are high in <a href=\"https://sailcannabis.co/research/12/161\">the non-psychoactive cannabinoid CBD</a> would ideal for patients that wish to improve their quality of life, without impairment.</p>\n<p>CBD strains and extracts are quite possibly the keys to many patients looking to medicate with cannabis while living normal, day-to-day lives.</p>\n<p>Recently, the treatment of epilepsy with cannabis strains high in CBD has been a highly popular topic of research and speculation, with anecdotal evidence flooding many different publications praising its efficacy. A quick search online results in a long list of positive results through medicating with CBD for children with refractory epilepsies, including Dravet syndrome, Lennox-Gastaut, and Doose syndrome.1 However, a clinically validated base of research needs to be further developed to fully understand the complete therapeutic potentials of strains that are high in CBD.</p>\n<h3>Relief With Cannabis Without Intoxication</h3>\n<p>One cannabis strain in particular was developed in 2011 by the Stanley Brothers in Colorado named Charlotte&#8217;s Web. Produced specifically for Charlotte Figi, a child who suffers from Dravet Syndrome, she experienced from long lasting debilitating seizures resulting in endless hospital visits and developmental delays. Her family can attest to the long list of medications and treatment options that had all failed in the treatment of her seizures, with cannabis being the final option.2</p>\n<p>This strain was produced with the main goal of containing as little THC as possible, and would result in the breeding of a plant that is non-psychoactive in nature, but possessed all the therapeutic potentials of CBD. 3</p>\n<p>This strain has been described as a low-THC, non-psychoactive option for patients, with a 30:1 CBD to THC ratio. Charlotte’s family moved to Colorado specifically to ensure access to this medicine for their child, reporting a staggering reduction in seizures, and a dramatically improved quality of life. Widespread coverage of Charlotte&#8217;s experience with cannabis and this strain has resulted in a massive surge in popularity for Charlotte&#8217;s Web, with anecdotal reports suggesting that this strain is a great fit for patients looking to manage seizures, without any high. 4</p>\n<p>Charlotte&#8217;s mother has gone on record, praising the high-CBD strain tailored specifically for her daughter, administered through an under the tongue tincture in an olive oil extract. She claims that the medication has resulted in close to complete control of her daughter’s seizures, allowing her daughter to be taken off a feeding tube, zero autistic behaviour, a complete reduction in sleep disorders, while giver her back the ability to walk and talk. She described the experience as completely life changing for her daughter.5</p>\n<h3>Improving Quality of Life With Cannabis Strains High in CBD</h3>\n<p>The strain Charlotte&#8217;s Web is certainly ideal for any patient, child or adult, that wishes to medicate for epilepsy, however the list of conditions continues to grow. Clinical research has been expanding on CBD, and how it can be a possible option for treating Alzheimer&#8217;s Disease1, but also presents itself to have potentials as an anticonvulsive, sedative, hypnotic, antipsychotic, anti-inflammatory, along with neuroprotective properties.6</p>\n<p>Patients can also consider strains such as AC-DC, Cannatonic, and CBD Shark for their high concentrations of CBD. Other strains that have a 1:1 ratio of CBD and THC should also consider strains such as Harlequin, and Pennywise if patients don’t mind the psychoactive effects of THC. As always, <a href=\"https://sailcannabis.co/research/12/319\">vaporization</a> of these strains will result in the greatest therapeutic potentials, however other administration methods such as edibles and tinctures can be a great option for a medical cannabis patient.</p>\n<p><u>Works Cited</u></p>\n<p>1.Perucca E. Cannabinoids in the Treatment of Epilepsy: Hard Evidence at Last? Journal of Epilepsy Research. 2017;7(2):61-76. doi:10.14581/jer.17012.<br />\n2. Allen G. Florida Bill Would Allow Medical Marijuana For Child Seizures. NPR. https://www.npr.org/sections/health-shots/2014/01/16/262481852/florida-bill-would-allow-marijuana-extract-for-child-seizures. Published January 16, 2014. Accessed April 6, 2018.<br />\n3. “”<br />\n4.””<br />\n5. Young S. Marijuana stops child&#8217;s severe seizures. CNN. https://www.cnn.com/2013/08/07/health/charlotte-child-medical-marijuana/index.html. Published August 7, 2013. Accessed April 6, 2018.<br />\n6. Watt G, Karl T. In vivo Evidence for Therapeutic Properties of Cannabidiol (CBD) for Alzheimers Disease. Frontiers in Pharmacology. 2017;8. doi:10.3389/fphar.2017.00020.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Find Healing with Cannabis Strains High In CBD Cannabis has been largely tied to the high that many users and patients experience when consuming the&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 349,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/347"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=347"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/347/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/349"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=347"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=347"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=347"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 337,
+      "date": "2018-04-06T09:49:25",
+      "date_gmt": "2018-04-06T14:49:25",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=337"
+      },
+      "modified": "2018-04-06T09:53:04",
+      "modified_gmt": "2018-04-06T14:53:04",
+      "slug": "relieving-the-tension-transdermal-cannabis-consumption",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/relieving-the-tension-transdermal-cannabis-consumption/",
+      "title": {
+        "rendered": "Relieving Tension With Transdermal Cannabis Consumption"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-340\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/transdermal-cannabis.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/transdermal-cannabis.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/transdermal-cannabis-300x199.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/transdermal-cannabis-768x510.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>Medicating With Cannabis Without The High</h2>\n<p>As medical cannabis has evolved, a large range of <a href=\"https://sailcannabis.co/research/12/155\">treatment methods</a> has emerged for patients that wish to medicate with cannabis, without the high that is often associated with, and tied to THC. For the patient looking to manage localized pain or soreness, transdermal options are available through topicals, creams, balms and salves that can be applied directly to the skin.<br />\nThere are many products available to patients, including creams and balms that are intended to address arthritis or muscle soreness; along with soaps and bath scrubs that are infused with cannabis to aid in overall soreness. Emerging is a long list of cannabis-based skin care products that are marketed to aid in skin abrasions while claiming to address acne, eczema, allergic skin reactions, the treatment of herpes, along with muscle strain, inflammation, and swelling.<sup>1</sup></p>\n<h3>Emerging Cannabis Infused Transdermal Products</h3>\n<p>While the research surrounding the process in which transdermal cannabis works with our body is scant, it has been reported that cannabinoids present within a salve or cream interacts with CB1 and CB2 receptors in our <a href=\"https://sailcannabis.co/research/12/268\">endocannabinoid system</a> found in our skin.<sup>2</sup> However, <a href=\"https://sailcannabis.co/research/12/300\">THC</a> or <a href=\"https://sailcannabis.co/research/12/161\">CBD</a> infused salves and creams can offer many of the effects of cannabis, without any sort of high, as the cannabinoids like THC cannot cross the blood-brain barrier through our skin.<sup>3</sup></p>\n<p><em>The European Journal of Pain</em> explored the efficacy of transdermal CBD and how it can reduce inflammation and pain. Their work included the process of applying CBD gels to rats for 4 days after an arthritis induction. The results, the transdermal CBD gel greatly reduced joint swelling, with limited effects on higher brain functions. The study concluded that topical CBD applications have therapeutic potential for relief of arthritis pain-related behaviour and inflammation, without any significant side effects.<sup>4</sup></p>\n<p>The study completed by D.C. Hammell and six other academics noted that the therapeutic potentials of transdermal CBD included no psychoactive effects, and could be a viable treatment option for the one in five people worldwide that suffer from arthritis. Currently, treatment options require an injectable fusion protein, but has been known to include immune suppression.<sup>5</sup></p>\n<h2>Transdermal Cannabis Products Considered One of The Safest Ways To Medicate</h2>\n<p>Further exploration on the topic of cannabis as an option for pain relief in the form of a topical is recommended, as clinical research on this topic is lacking, with many anecdotal reports claiming that transdermal applications can address cramps, hemorrhoids, menstrual pain, bronchitis, asthma, and migraines.<sup>6</sup></p>\n<p>However for the new patient, medicating transdermally is one of the safest ways to consume cannabis, without any psychoactive effects.</p>\n<p><u>Works Cited<u></u></u></p>\n<p>1. Cannabis 101. Americans for Safe Access. https://www.safeaccessnow.org/using_medical_cannabis. Accessed April 3, 2018.<br />\n2. “”<br />\n3. Hammell D, Zhang L, Ma F, et al. Transdermal cannabidiol reduces inflammation and pain-related behaviours in a rat model of arthritis. European Journal of Pain. 2015;20(6):936-948. doi:10.1002/ejp.818.<br />\n4. “”<br />\n5. “”<br />\n6. “”</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Medicating With Cannabis Without The High As medical cannabis has evolved, a large range of treatment methods has emerged for patients that wish to medicate&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 340,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/337"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=337"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/337/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/340"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=337"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=337"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=337"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 334,
+      "date": "2018-04-04T09:25:30",
+      "date_gmt": "2018-04-04T14:25:30",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=334"
+      },
+      "modified": "2018-04-04T09:25:58",
+      "modified_gmt": "2018-04-04T14:25:58",
+      "slug": "seizure-management-in-patients-with-brain-tumor-related-epilepsy",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/seizure-management-in-patients-with-brain-tumor-related-epilepsy/",
+      "title": {
+        "rendered": "Seizure Management In Patients With Brain Tumor-Related Epilepsy"
+      },
+      "content": {
+        "rendered": "<h2><img class=\"alignnone size-full wp-image-335\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-cbd-oil.jpg\" alt=\"\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-cbd-oil.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-cbd-oil-300x226.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-cbd-oil-768x579.jpg 768w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></h2>\n<h2>The Case For Seizure Management with CBD</h2>\n<p>A recent study explored brain tumor-related <a href=\"https://sailcannabis.co/research/6/260\">epilepsy</a>, and how cannabidiol (CBD) can help in the management of seizures as a result of these kinds of tumors. While brain tumors cause seizures, antiepileptic drugs are known the have extremely negative effects on the quality of life for patients, while contributing to a patient’s cognitive impairment. Data collected from this study suggests CBD as a safe option for patients suffering from these types of seizures.</p>\n<p>Published and collaborated on by researchers out of the University of Alabama at Birmingham, through Paula Warren and two other academics, scholars examined three patients with a history of brain tumors, from a pool of 82 patients with refractory epilepsy. The three patients had a long history of treatment, including surgical resection, radiation, and chemotherapy. Prior to enrollment, three patients had an average of 3.7 anti-epileptic drugs, with an average number of failed anti-epileptic drugs of 8. Patient &#8220;A&#8221; saw a seizure decrease of 58 per cent, patient &#8220;B&#8221; saw a decrease in 33 per cent, and patient &#8220;C&#8221; experienced a seizure decrease of 21 per cent.</p>\n<p>Results from this study suggest that further investigation of <a href=\"https://sailcannabis.co/research/12/161\">the use of CBD oil</a> as a treatment option would be needed, as CBD may be a safe and effective treatment option for refractory epilepsy patients. CBD offers limited side effects, especially in comparison to other antiepileptic drugs like Clonazepam and Gabapentin.</p>\n<h3>Cause For Further Exploring CBD Oil as A Viable Treatment Method</h3>\n<p>Furthermore, CBD oil has been a hot topic of discussion in the global sphere of medical cannabis. Specifically, much debate in the UK has arisen on the legality of cannabis in oil-form, after six-year-old boy Alfie Dingley was denied a prescription due to the legal state of cannabis. His mother, Hannah Deacon obtained CBD oil while visiting the Netherlands, effectively managing her son’s seizures, seeing her son’s quality of life increase dramatically.</p>\n<p>However, after returning to the United Kingdom, Deacon has struggled to obtain the medication, resulting in a media frenzy and public outcry from advocates, patients, and celebrities. <a href=\"https://sailcannabis.co/research/6/46\">CBD oil</a> has been shown to have a long list of clinically validated therapeutic potentials as an antioxidant, anti-inflammatory, and a neuroproliferative, while also managing seizures attributed to epilepsy. Today however, the United Kingdom maintains that cannabis has no therapeutic value as a schedule I drug.</p>\n<p><u>Work Cited</u></p>\n<p><span style=\"font-weight: 400;\">Warren PP, Bebin EM, Nabors LB, Szaflarski JP. The use of cannabidiol for seizure management in patients with brain tumor-related epilepsy. Neurocase. 2017;23(5-6):287-291. doi:10.1080/13554794.2017.1391294.</span></p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>The Case For Seizure Management with CBD A recent study explored brain tumor-related epilepsy, and how cannabidiol (CBD) can help in the management of seizures&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 335,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        6
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/334"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=334"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/334/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/335"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=334"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=334"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=334"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 330,
+      "date": "2018-04-04T09:02:12",
+      "date_gmt": "2018-04-04T14:02:12",
+      "guid": {
+        "rendered": "https://mvc-ca-web-stag.azurewebsites.net/?p=330"
+      },
+      "modified": "2018-04-04T09:02:24",
+      "modified_gmt": "2018-04-04T14:02:24",
+      "slug": "an-introduction-to-medical-cannabis-edible-products",
+      "status": "publish",
+      "type": "post",
+      "link": "https://mvc-ca-web-stag.azurewebsites.net/an-introduction-to-medical-cannabis-edible-products/",
+      "title": {
+        "rendered": "An Introduction To Medical Cannabis Edible Products"
+      },
+      "content": {
+        "rendered": "<p><img class=\"alignnone wp-image-332 size-full\" src=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/edible-cannabis-products.jpg\" alt=\"edible-cannabis-products\" srcset=\"https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/edible-cannabis-products.jpg 764w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/edible-cannabis-products-300x225.jpg 300w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/edible-cannabis-products-768x576.jpg 768w, https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/edible-cannabis-products-800x600.jpg 800w\" sizes=\"(max-width: 764px) 100vw, 764px\" /></p>\n<h2></h2>\n<h2>Having Your Cake and Eating It Too With Edible Cannabis Products</h2>\n<p><span style=\"font-weight: 400;\">Cannabis edibles offer a long list of benefits to patients looking to medicate, while skipping out on inhaling smoke or vapor.</span></p>\n<p><span style=\"font-weight: 400;\">Edibles come in a wide variety of forms, including candies, baked goods, lozenges, and beverages, but also appearing as extracts and oils that can be added to food products. Canadian regulated suppliers do not sell cannabis-infused edible products, but instead offer oil as the only ingestible cannabis product. Edibles are available in dispensaries in the United States, depending on an individual state’s laws surrounding medical cannabis. </span></p>\n<p><span style=\"font-weight: 400;\">While edible products are quite appealing to medical cannabis patients because they are discreet and odorless, new patients should use caution when consuming them for the first time. </span></p>\n<p><span style=\"font-weight: 400;\">Edibles have the ability to surprise patients with their potency. Additionally, cannabis edibles lack the early onset effects that are typically associated with smoking or vaporizing cannabis, sometimes taking up to two hours to feel the effects.<sup>1</sup> </span></p>\n<p><span style=\"font-weight: 400;\">Patients new to edibles might lean towards over-consumption, consuming more edible products as they wait for the effects to kick in. While it is next to impossible to overdose on cannabis, hospital visits as a result of over-consumption are usually the result of the over-consumption of edible cannabis products.<sup>2</sup> Their very nature are difficult to dose, and patients are urged to use caution when consuming them. Patients should begin with a small dose, as the effects and strength of edibles are largely dependent on a person’s size, as well as their experience and tolerance to cannabis.</span></p>\n<h2>Consuming Homemade Edible Cannabis Products</h2>\n<p>Patients looking to make their own edibles or cannabis-infused food products should start by <a href=\"https://sailcannabis.co/research/12/325\">gaining an understanding of decarboxylation</a>. Depending on the type of edible product they wish to create, in order to take advantage of the active ingredients in cannabis like <a href=\"https://sailcannabis.co/research/12/300\">THC</a> and <a href=\"https://sailcannabis.co/research/12/161\">CBD</a>, these cannabinoids first need to be converted from THC-A and CBD-A through the addition of heat. <sup>3</sup></p>\n<p>Cannabis that has been decarboxylated can be infused with oils like butter or coconut oil, and those oils can be added to food products and baked goods. Those oils can also be consumed and spread onto things like toast, vegetables, biscuits, scones, and even added to caffeinated beverages. Decarboxylated cannabis is also perfect for chocolates and sweet treats that don’t need further baking.</p>\n<p>Other edible products that require baking should contain oils that are infused with THCA (non-activated THC). Use these oils in batter, and have the THC be activated through the baking process.<sup>4</sup></p>\n<h2>Purchasing Cannabis Edibles From Regulated Suppliers</h2>\n<p>Patients purchasing cannabis edibles through a regulated supplier should take note of their THC content. 10 milligrams is an excellent place to begin for new patients, while 50 milligrams is better suited for patients who are more experienced with cannabis, and have a higher tolerance to the medicine. <sup>5</sup></p>\n<p>Patients who purchase edibles should keep them far out of the reach of children, storing them in child-proof containers. Their appearance can often appeal to children, and patients should take the necessary steps to ensure that their edible products are never accidentally consumed by children.</p>\n<p><u>Works Cited</u></p>\n<p>1.Giombi KC, Kosa KM, Rains C, Cates SC. Consumers Perceptions of Edible Marijuana Products for Recreational Use: Likes, Dislikes, and Reasons for Use. Substance Use &amp; Misuse. 2017;53(4):541-547. doi:10.1080/10826084.2017.1343353.<br />\n2. Barrus D, Capogrossi K, Cates S, et al. Tasty THC: Promises and Challenges of Cannabis Edibles. 2016. doi:10.3768/rtipress.2016.op.0035.1611.<br />\n3. “”<br />\n4. Mika Unterman, Community Manager &#8211; Cannabis Edibles &#8211; Company Lecture, March 29 2018<br />\n5. Barrus, et al.</p>\n",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Having Your Cake and Eating It Too With Edible Cannabis Products Cannabis edibles offer a long list of benefits to patients looking to medicate, while&hellip;</p>\n",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 332,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        12
+      ],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/330"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/users/3"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/comments?post=330"
+          }
+        ],
+        "version-history": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/posts/330/revisions"
+          }
+        ],
+        "wp:featuredmedia": [
+          {
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media/332"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/media?parent=330"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/categories?post=330"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://mvc-ca-web-stag.azurewebsites.net/wp-json/wp/v2/tags?post=330"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]
+}
