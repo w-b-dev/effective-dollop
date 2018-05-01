@@ -138,19 +138,22 @@ export class ArticlesListingComponent {
       if ( nInput._categories !== undefined && nInput._categories !== null ) {
         /*Now the data is ok, let's see if we already have this category registered somewhere*/
         if ( counter[ nInput._categories ] !== undefined && counter[ nInput._categories ] !== null ) {
-          console.log('DATA EXISTS.', counter[ nInput._categories ]);
+          console.log( 'DATA EXISTS.', counter[ nInput._categories ] );
+          /*TODO: The idea is to check the array for elements' existence
+           * and increase the counter
+           * The POST that was retrieved and checked should be sent to the new OUTPUT array*/
           let quantity = counter[ nInput._categories ];
-          if(quantity < 2) {
+          if ( quantity < 2 ) {
             quantity++;
             counter[ nInput._categories ] = quantity;
           }
-          console.log(counter );
+          console.log( counter );
         } else {
           /*OK, we didn't have the data, so let's it*/
           counter.splice( nInput._categories, 0, nInput._categories );
-          console.log('DATA DOES NOT EXIST.');
-          console.log('DATA ADDED.');
-          console.log(counter );
+          console.log( 'DATA DOES NOT EXIST.' );
+          console.log( 'DATA ADDED.' );
+          console.log( counter );
         }
       } else {
         /*If the input array has no valid data, report*/
