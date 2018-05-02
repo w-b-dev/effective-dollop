@@ -7,11 +7,12 @@
   <span class="id">ID = {{article._id}}</span>
   <img class="thumbnail"
        src="{{getImageUrl(article._featuredmedia)}}"
-       alt="{{article._title_rendered}}">
+       alt="#{{article._featuredmedia}}"
+       title="Media #{{article._featuredmedia}}">
 </article>
 
-<pre
+<!--<pre
   style="font-size: 8px; background-color: dodgerblue; color: white; overflow: hidden;"
   class="debug">
-    {{ outputArray | json }}
-</pre>
+    {{ medias | json }}
+</pre>-->

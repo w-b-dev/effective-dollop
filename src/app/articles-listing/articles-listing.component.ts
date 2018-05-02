@@ -16,58 +16,47 @@ export class ArticlesListingComponent implements OnInit {
 
   articles: Array<WordpressArticle> = [];
 
-  medias: Array<WordpressMedia> = [
-    {
-      _id: 91,
-      _guid_rendered: 'https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/05/cannabis-drug-relapse.jpg',
-      _title_rendered: 'IMG title',
-      _caption_rendered: 'IMG caption',
-      _post: 98908,
-    },
-    {
-      _id: 92,
-      _guid_rendered: 'https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/cannabis-essential-oil.jpg',
-      _title_rendered: 'IMG title',
-      _caption_rendered: 'IMG caption',
-      _post: 98908,
-    },
-    {
-      _id: 93,
-      _guid_rendered: 'https://mvc-ca-web-stag.azurewebsites.net/wp-content/uploads/2018/04/medical-cannabis-tolerance.jpg',
-      _title_rendered: 'IMG title',
-      _caption_rendered: 'IMG caption',
-      _post: 98908,
-    },
-  ];
+  medias: Array<WordpressMedia> = [];
 
   outputArray: Array<WordpressArticle> = [];
 
-  constructor( private loadFromWordpressService: LoadFromWordpressService ) { }
+  constructor( private loadFromWordpressService: LoadFromWordpressService ) {
+  }
 
   ngOnInit() {
     // console.log('ROOT URL PASSED TO THE COMPONENT: ', this.url);
-    let result = {};
-    this.loadFromWordpressService.getWordpressPosts(this.url)
+    this.loadFromWordpressService.getWordpressMediaList( this.url )
       .subscribe( data => {
-        result = data;
-        data.forEach((element, index, array) => {
-          this.articles.push({
-            _categories: element.categories[0],
+        data.forEach( ( element, index, array ) => {
+          this.medias.push( {
+            _id: element.id,
+            _guid_rendered: element.guid.rendered,
+            _title_rendered: element.title.rendered,
+            _caption_rendered: element.caption.rendered,
+            _post: element.post
+          } );
+        } );
+      } );
+
+    this.loadFromWordpressService.getWordpressPosts( this.url )
+      .subscribe( data => {
+        data.forEach( ( element, index, array ) => {
+          this.articles.push( {
+            _categories: element.categories[ 0 ],
             _id: element.id,
             _link: element.link,
             _title_rendered: element.title.rendered,
             _sticky: element.sticky,
-            _featuredmedia: element.feature_media,
+            _featuredmedia: element.featured_media,
             _date: element.date,
             _htmlexcerpt_rendered: element.excerpt.rendered,
             _htmlcontent_rendered: element.content.rendered
-          });
-        });
+          } );
+        } );
         // console.log('LINE 66');
         // console.log(this.articles);
         this.preSelectArticles( this.articles );
-      });
-
+      } );
   }
 
   preSelectArticles( input: Array<WordpressArticle> ) {
