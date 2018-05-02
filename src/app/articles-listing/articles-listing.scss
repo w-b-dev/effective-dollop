@@ -18,21 +18,31 @@
   margin: 10px 2.5%;
   padding: 1rem 0;
   border: 1px solid lightgray;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: ghostwhite;
+  transition-delay: 10ms;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
 
   &:nth-child(even):hover {
-    border-left-color: blue;
-    border-right-color: blue;
+    border-color: blue;
     background-color: rgba(0, 0, 255, 0.2);
   }
   &:nth-child(odd):hover {
-    border-right-color: green;
-    border-left-color: green;
+    border-color: green;
     background-color: rgba(0, 128, 0, 0.2);
   }
 
   @media all and (max-width: 768px){
     width: calc(95% - 2px);
     flex-direction: row;
+    padding: .5rem;
 
     .category {
       display: none;
@@ -42,30 +52,34 @@
     }
   }
 
-  //> * {
-  //  flex: 1;
-  //}
   .category {
     margin-bottom: .5rem;
     margin-left: auto;
     margin-right: 1rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: slategray;
-    font-size: .7rem;
-    font-weight: bold;
+    font-size: .8rem;
+    font-weight: lighter;
     cursor: not-allowed;
   }
   .title {
-    text-decoration: none;
+    max-width: 90%;
+    margin: 0 auto 1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 90%;
-    margin: 0 auto 1rem;
+    color: black;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    text-decoration: none;
     //display: block;
   }
   .thumbnail {
     max-height: 60px;
     max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
   }
 }

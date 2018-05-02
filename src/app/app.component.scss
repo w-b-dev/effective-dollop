@@ -2,3 +2,28 @@
   display: flex;
   flex-direction: column;
 }
+
+.set-values-form {
+  display: flex;
+  border-bottom: 2px solid black;
+  padding-bottom: .5rem;
+
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  label {
+    display: flex;
+
+    &.set-url {
+      flex: 1;
+    }
+
+    &.set-posts {
+      margin-left: 1rem;
+      @media all and (max-width: 768px) {
+        margin-left: 0;
+      }
+    }
+  }
+}
