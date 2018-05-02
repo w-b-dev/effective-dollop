@@ -1,13 +1,15 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { WordpressArticle } from '../data-classes/wordpress-article';
 import { WordpressMedia } from '../data-classes/wordpress-media';
+import { LoadFromWordpressService } from "../load-from-wordpress.service";
 
 @Component( {
   selector: 'wordpresser-articles-listing',
   templateUrl: 'articles-listing.html',
-  styleUrls: [ 'articles-listing.scss' ]
+  styleUrls: [ 'articles-listing.scss' ],
+  providers: [ LoadFromWordpressService ]
 } )
-export class ArticlesListingComponent {
+export class ArticlesListingComponent implements OnInit {
 
   @Input() url: string;
   @Input() perCat: number;
@@ -203,13 +205,36 @@ export class ArticlesListingComponent {
 
   outputArray: Array<WordpressArticle> = [];
 
-  constructor() {
+  constructor( private loadFromWordpressService: LoadFromWordpressService ) { }
+
+  ngOnInit() {
+    console.log('ROOT URL PASSED TO THE COMPONENT: ', this.url);
+    let result = {};
+    this.loadFromWordpressService.getWordpressPosts(this.url)
+      .subscribe( data => {
+        result = data;
+        data.forEach((element, index, array) => {
+          this.articles.push({
+            _categories: element.categories[0],
+            _id: element.id,
+            _link: element.link,
+            _title_rendered: element.title.rendered,
+            _sticky: element.sticky,
+            _featuredmedia: element.feature_media,
+            _date: element.date,
+            _htmlexcerpt_rendered: element.excerpt.rendered,
+            _htmlcontent_rendered: element.content.rendered
+          });
+          console.log('LINE 228', this.articles);
+        });
+        console.log('LINE 230', this.articles);
+        // console.log('c - ', result);
+      });
     this.preSelectArticles( this.articles );
   }
 
-
   preSelectArticles( input: Array<WordpressArticle> ) {
-    console.log('******** Starts filtering the INPUT array');
+    console.log( '******** Starts filtering the INPUT array' );
     let counter = [];
 
     input.forEach( ( value, index, nInput ) => {
@@ -219,7 +244,7 @@ export class ArticlesListingComponent {
 
         /*Now the data is ok, let's see if we already have this category registered somewhere*/
         if ( counter[ value._categories ] !== undefined && counter[ value._categories ] !== null ) {
-        // Check the counter (less than 2) and increase it
+          // Check the counter (less than 2) and increase it
           if ( counter[ value._categories ] < this.perCat ) {
             counter[ value._categories ]++;
             // At the same time the 'post/article' is sent to the new OUTPUT array
@@ -240,7 +265,7 @@ export class ArticlesListingComponent {
       }
     } );
 
-    console.log('******** Finished generating the OUTPUT array');
+    console.log( '******** Finished generating the OUTPUT array' );
     console.log( this.outputArray );
     // return this.outputArray;
   }

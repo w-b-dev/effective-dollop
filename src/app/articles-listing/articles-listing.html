@@ -2,7 +2,6 @@
   Built for {{this.url}}, showing {{this.perCat}} posts per category
 </p>
 
-<!--<article *ngFor="let article of articles" class="article">-->
 <article *ngFor="let article of outputArray" class="article">
   <span class="category">Category: {{article._categories}}</span>
   <span class="id">ID = {{article._id}}</span>
@@ -12,7 +11,7 @@
 </article>
 
 <pre
-  style="font-size: 8px; background-color: dodgerblue; color: white;"
+  style="font-size: 8px; background-color: dodgerblue; color: white; overflow: hidden;"
   class="debug">
-    {{ medias | json }}
+    {{ outputArray | json }}
 </pre>
