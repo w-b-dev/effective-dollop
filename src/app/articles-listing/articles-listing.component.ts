@@ -15,7 +15,7 @@ export class ArticlesListingComponent {
   articles: Array<WordpressArticle> = [
     {
       _id: -1,
-      _categories: 1,
+      _categories: 10,
       _featuredmedia: 91,
       _sticky: false,
       _title_rendered: 'That is my title',
@@ -26,7 +26,7 @@ export class ArticlesListingComponent {
     },
     {
       _id: -2,
-      _categories: 1,
+      _categories: 10,
       _featuredmedia: 92,
       _sticky: false,
       _title_rendered: 'I do not have a title',
@@ -36,7 +36,7 @@ export class ArticlesListingComponent {
       _htmlexcerpt_rendered: '<div>NONE HERE</div>',
     }, {
       _id: -3,
-      _categories: 1,
+      _categories: 10,
       _featuredmedia: 93,
       _sticky: false,
       _title_rendered: 'I do not have a title',
@@ -46,7 +46,7 @@ export class ArticlesListingComponent {
       _htmlexcerpt_rendered: '<div>NONE HERE</div>',
     }, {
       _id: -4,
-      _categories: 2,
+      _categories: 20,
       _featuredmedia: 94,
       _sticky: false,
       _title_rendered: 'I do not have a title',
@@ -56,7 +56,107 @@ export class ArticlesListingComponent {
       _htmlexcerpt_rendered: '<div>NONE HERE</div>',
     }, {
       _id: -5,
-      _categories: 3,
+      _categories: 30,
+      _featuredmedia: 95,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -6,
+      _categories: undefined,
+      _featuredmedia: 96,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -5,
+      _categories: 30,
+      _featuredmedia: 95,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -6,
+      _categories: undefined,
+      _featuredmedia: 96,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -5,
+      _categories: 30,
+      _featuredmedia: 95,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -6,
+      _categories: undefined,
+      _featuredmedia: 96,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -5,
+      _categories: 30,
+      _featuredmedia: 95,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -6,
+      _categories: undefined,
+      _featuredmedia: 96,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -5,
+      _categories: 30,
+      _featuredmedia: 95,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -6,
+      _categories: undefined,
+      _featuredmedia: 96,
+      _sticky: false,
+      _title_rendered: 'I do not have a title',
+      _link: 'asdasdasdasdas',
+      _date: '-135465',
+      _htmlcontent_rendered: '<div>NOTHING</div>',
+      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
+    }, {
+      _id: -5,
+      _categories: 30,
       _featuredmedia: 95,
       _sticky: false,
       _title_rendered: 'I do not have a title',
@@ -101,67 +201,48 @@ export class ArticlesListingComponent {
     },
   ];
 
-  postsLoadedPerCategory = [
-    { category: 1000 },
-    { category: 2000 },
-    { category: 3000 },
-  ];
+  outputArray: Array<WordpressArticle> = [];
 
   constructor() {
     this.preSelectArticles( this.articles );
   }
 
 
-  loadOneMorePost( category: number ) {
-    console.log( 'category passed: ', category );
-    this.postsLoadedPerCategory.forEach( element => {
-      // console.log( element );
-      if ( element.category === category ) {
-        return true;
-        // console.log( 'Category: ' + category + ' already exists. Item count: ' + this.postsLoadedPerCategory.length );
-      } else {
-        return false;
-        // console.log( 'Has NOT property: ' + category );
-        // console.log( 'Adding now...' );
-        // this.postsLoadedPerCategory.push( { category: 1 } );
-      }
-    } );
-  }
-
   preSelectArticles( input: Array<WordpressArticle> ) {
-    let outputArray: Array<WordpressArticle>;
-
+    console.log('******** Starts filtering the INPUT array');
     let counter = [];
 
-    input.forEach( nInput => {
+    input.forEach( ( value, index, nInput ) => {
+
       /*First if checks the input array for valid info*/
-      if ( nInput._categories !== undefined && nInput._categories !== null ) {
+      if ( value._categories !== undefined && value._categories !== null ) {
+
         /*Now the data is ok, let's see if we already have this category registered somewhere*/
-        if ( counter[ nInput._categories ] !== undefined && counter[ nInput._categories ] !== null ) {
-          console.log( 'DATA EXISTS.', counter[ nInput._categories ] );
-          /*TODO: The idea is to check the array for elements' existence
-           * and increase the counter
-           * The POST that was retrieved and checked should be sent to the new OUTPUT array*/
-          let quantity = counter[ nInput._categories ];
-          if ( quantity < 2 ) {
-            quantity++;
-            counter[ nInput._categories ] = quantity;
+        if ( counter[ value._categories ] !== undefined && counter[ value._categories ] !== null ) {
+        // Check the counter (less than 2) and increase it
+          if ( counter[ value._categories ] < this.perCat ) {
+            counter[ value._categories ]++;
+            // At the same time the 'post/article' is sent to the new OUTPUT array
+            this.outputArray.push( value );
+            console.log( index + ': Increased counter for ' + value._categories + '____ final:' + counter[ value._categories ] );
+          } else {
+            console.log( index + ': Already full for category ' + value._categories + '____ final:' + counter[ value._categories ] );
           }
-          console.log( counter );
         } else {
-          /*OK, we didn't have the data, so let's it*/
-          counter.splice( nInput._categories, 0, nInput._categories );
-          console.log( 'DATA DOES NOT EXIST.' );
-          console.log( 'DATA ADDED.' );
-          console.log( counter );
+          /*OK, we didn't have the data, so let's add it*/
+          counter[ value._categories ] = 1;
+          this.outputArray.push( value );
+          console.log( index + ': First insertion for ' + value._categories + '____ final:' + counter[ value._categories ] );
         }
       } else {
         /*If the input array has no valid data, report*/
-        console.log( nInput._id + 'has no CATEGORY defined.' );
-        console.log( 'REJECT this post!' );
+        console.log( index, value._id + ' has no CATEGORY defined. REJECT' );
       }
-    } )
-    // return outputArray;
+    } );
+
+    console.log('******** Finished generating the OUTPUT array');
+    console.log( this.outputArray );
+    // return this.outputArray;
   }
 
   getImageUrl( mediaId: number ) {
