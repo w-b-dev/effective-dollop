@@ -6,36 +6,56 @@
   background-color: #fdfdfd;
 }
 
+.image-collage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .article {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 1px solid lightgray;
-  border-right: 5px solid slategray;
+  width: calc(45% - 2px);
+  margin: 10px 2.5%;
+  padding: 1rem 0;
+  border: 1px solid lightgray;
 
   &:nth-child(even):hover {
-    border-right: 5px solid blue;
+    border-left-color: blue;
+    border-right-color: blue;
     background-color: rgba(0, 0, 255, 0.2);
   }
   &:nth-child(odd):hover {
-    border-right: 5px solid green;
+    border-right-color: green;
+    border-left-color: green;
     background-color: rgba(0, 128, 0, 0.2);
   }
 
-  > * {
-    flex: 1;
-  }
+  //> * {
+  //  flex: 1;
+  //}
   .category {
+    margin-bottom: .5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    color: slategray;
     font-size: .7rem;
+    font-weight: bold;
+    cursor: not-allowed;
   }
-  .id {
-    font-size: .5rem;
-    font-style: italic;
+  .title {
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    margin: 0 auto 1rem;
+    //display: block;
   }
   .thumbnail {
     max-height: 60px;
-    max-width: 60px;
+    max-width: 100%;
   }
 }

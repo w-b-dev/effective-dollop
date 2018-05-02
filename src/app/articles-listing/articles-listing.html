@@ -1,15 +1,24 @@
 <p>
   Built for {{this.url}}, showing {{this.perCat}} posts per category
 </p>
+<section class="image-collage">
+  <article *ngFor="let article of outputArray; let i = index" class="article">
+    <a href="#" class="category" title="NOT IMPLEMENTED YET">
+      <!--TODO: Implement Categories page-->
+      Category: {{article._categories}}
+    </a>
+    <a class="title" href="{{article._link}}" title="{{article._title_rendered}}">
+      {{i + 1}} - {{article._title_rendered}}
+    </a>
+    <a href="{{article._link}}">
+    <img class="thumbnail"
+         src="{{getImageUrl(article._featuredmedia)}}"
+         alt="#{{article._featuredmedia}}"
+         title="Media #{{article._featuredmedia}}">
+    </a>
+  </article>
+</section>
 
-<article *ngFor="let article of outputArray; let i = index" class="article">
-  <span class="category">({{i + 1}})Category: {{article._categories}}</span>
-  <span class="id">ID = {{article._id}}</span>
-  <img class="thumbnail"
-       src="{{getImageUrl(article._featuredmedia)}}"
-       alt="#{{article._featuredmedia}}"
-       title="Media #{{article._featuredmedia}}">
-</article>
 
 <!--<pre
   style="font-size: 8px; background-color: dodgerblue; color: white; overflow: hidden;"
