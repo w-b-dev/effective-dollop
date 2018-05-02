@@ -2,8 +2,8 @@
   Built for {{this.url}}, showing {{this.perCat}} posts per category
 </p>
 
-<article *ngFor="let article of outputArray" class="article">
-  <span class="category">Category: {{article._categories}}</span>
+<article *ngFor="let article of outputArray; let i = index" class="article">
+  <span class="category">({{i + 1}})Category: {{article._categories}}</span>
   <span class="id">ID = {{article._id}}</span>
   <img class="thumbnail"
        src="{{getImageUrl(article._featuredmedia)}}"

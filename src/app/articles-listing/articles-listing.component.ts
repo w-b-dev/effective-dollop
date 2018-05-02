@@ -14,170 +14,7 @@ export class ArticlesListingComponent implements OnInit {
   @Input() url: string;
   @Input() perCat: number;
 
-  articles: Array<WordpressArticle> = [
-    {
-      _id: -1,
-      _categories: 10,
-      _featuredmedia: 91,
-      _sticky: false,
-      _title_rendered: 'That is my title',
-      _link: 'werewrewrrwrr',
-      _date: '-17686786',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    },
-    {
-      _id: -2,
-      _categories: 10,
-      _featuredmedia: 92,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -3,
-      _categories: 10,
-      _featuredmedia: 93,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -4,
-      _categories: 20,
-      _featuredmedia: 94,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -5,
-      _categories: 30,
-      _featuredmedia: 95,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    }, {
-      _id: -6,
-      _categories: undefined,
-      _featuredmedia: 96,
-      _sticky: false,
-      _title_rendered: 'I do not have a title',
-      _link: 'asdasdasdasdas',
-      _date: '-135465',
-      _htmlcontent_rendered: '<div>NOTHING</div>',
-      _htmlexcerpt_rendered: '<div>NONE HERE</div>',
-    },
-  ];
+  articles: Array<WordpressArticle> = [];
 
   medias: Array<WordpressMedia> = [
     {
@@ -208,7 +45,7 @@ export class ArticlesListingComponent implements OnInit {
   constructor( private loadFromWordpressService: LoadFromWordpressService ) { }
 
   ngOnInit() {
-    console.log('ROOT URL PASSED TO THE COMPONENT: ', this.url);
+    // console.log('ROOT URL PASSED TO THE COMPONENT: ', this.url);
     let result = {};
     this.loadFromWordpressService.getWordpressPosts(this.url)
       .subscribe( data => {
@@ -225,16 +62,16 @@ export class ArticlesListingComponent implements OnInit {
             _htmlexcerpt_rendered: element.excerpt.rendered,
             _htmlcontent_rendered: element.content.rendered
           });
-          console.log('LINE 228', this.articles);
         });
-        console.log('LINE 230', this.articles);
-        // console.log('c - ', result);
+        // console.log('LINE 66');
+        // console.log(this.articles);
+        this.preSelectArticles( this.articles );
       });
-    this.preSelectArticles( this.articles );
+
   }
 
   preSelectArticles( input: Array<WordpressArticle> ) {
-    console.log( '******** Starts filtering the INPUT array' );
+    // console.log( '******** Starts filtering the INPUT array' );
     let counter = [];
 
     input.forEach( ( value, index, nInput ) => {
@@ -249,25 +86,24 @@ export class ArticlesListingComponent implements OnInit {
             counter[ value._categories ]++;
             // At the same time the 'post/article' is sent to the new OUTPUT array
             this.outputArray.push( value );
-            console.log( index + ': Increased counter for ' + value._categories + '____ final:' + counter[ value._categories ] );
+            // console.log( index + ': Increased counter for ' + value._categories + '____ final:' + counter[ value._categories ] );
           } else {
-            console.log( index + ': Already full for category ' + value._categories + '____ final:' + counter[ value._categories ] );
+            // console.log( index + ': Already full for category ' + value._categories + '____ final:' + counter[ value._categories ] );
           }
         } else {
           /*OK, we didn't have the data, so let's add it*/
           counter[ value._categories ] = 1;
           this.outputArray.push( value );
-          console.log( index + ': First insertion for ' + value._categories + '____ final:' + counter[ value._categories ] );
+          // console.log( index + ': First insertion for ' + value._categories + '____ final:' + counter[ value._categories ] );
         }
       } else {
         /*If the input array has no valid data, report*/
-        console.log( index, value._id + ' has no CATEGORY defined. REJECT' );
+        // console.log( index, value._id + ' has no CATEGORY defined. REJECT' );
       }
     } );
 
-    console.log( '******** Finished generating the OUTPUT array' );
-    console.log( this.outputArray );
-    // return this.outputArray;
+    // console.log( '******** Finished generating the OUTPUT array' );
+    // console.log( this.outputArray );
   }
 
   getImageUrl( mediaId: number ) {
