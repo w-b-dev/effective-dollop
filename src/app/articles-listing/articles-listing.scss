@@ -1,8 +1,6 @@
 :host {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  border: 1px solid #d9d9d9;
   background-color: #fdfdfd;
 }
 
@@ -30,6 +28,18 @@
     border-right-color: green;
     border-left-color: green;
     background-color: rgba(0, 128, 0, 0.2);
+  }
+
+  @media all and (max-width: 768px){
+    width: calc(95% - 2px);
+    flex-direction: row;
+
+    .category {
+      display: none;
+    }
+    a.title {
+      margin: unset;
+    }
   }
 
   //> * {
