@@ -2,27 +2,6 @@
   <span style="font-weight: bold; text-decoration: underline dodgerblue double">Root Component:</span>
   focused on consuming the Wordpress API!
 </h2>
-<form class="set-values-form" #wpOptions="ngForm">
-
-  <!--<label class="set-url">-->
-    <!--URL:-->
-    <!--<input type="text" name="urlInput" [value]="url" (keyup)="setUrl($event)" style="flex: 1;">-->
-    <!--<input type="text" name="urlInput"
-           placeholder="https://mvc-ca-web-stag.azurewebsites.net"
-           [value]="url"
-           style="flex: 1;">-->
-           <!--(keyup)="updateByTyping($event)" style="flex: 1;">-->
-  <!--</label>-->
-
-  <!--<input type="button" value="Set new url">-->
-  <!--<input type="button" value="Set new url" (click)="updateByClicking()">-->
-
-  <label class="set-posts">
-    Posts per category:
-    <input type="number" name="postCountInput" [(ngModel)]="perCat" id="postCountId" min="1">
-  </label>
-
-</form>
 
 <router-outlet></router-outlet>
 
