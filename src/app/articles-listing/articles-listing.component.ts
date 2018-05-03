@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChange } from '@angular/core';
 import { WordpressArticle } from '../data-classes/wordpress-article';
 import { WordpressMedia } from '../data-classes/wordpress-media';
 import { LoadFromWordpressService } from "../load-from-wordpress.service";
@@ -9,54 +9,37 @@ import { LoadFromWordpressService } from "../load-from-wordpress.service";
   styleUrls: [ 'articles-listing.scss' ],
   providers: [ LoadFromWordpressService ]
 } )
-export class ArticlesListingComponent implements OnInit {
+export class ArticlesListingComponent implements OnChanges, OnInit {
 
   @Input() url: string;
   @Input() perCat: number;
-
   articles: Array<WordpressArticle> = [];
-
   medias: Array<WordpressMedia> = [];
-
   outputArray: Array<WordpressArticle> = [];
 
   constructor( private loadFromWordpressService: LoadFromWordpressService ) {
+    this.url === undefined ? this.url = 'https://mvc-ca-web-stag.azurewebsites.net' : null;
   }
 
   ngOnInit() {
-    // console.log('ROOT URL PASSED TO THE COMPONENT: ', this.url);
-    this.loadFromWordpressService.getWordpressMediaList( this.url )
-      .subscribe( data => {
-        data.forEach( ( element, index, array ) => {
-          this.medias.push( {
-            _id: element.id,
-            _guid_rendered: element.guid.rendered,
-            _title_rendered: element.title.rendered,
-            _caption_rendered: element.caption.rendered,
-            _post: element.post
-          } );
-        } );
-      } );
+    this.updateHere( this.url );
+  }
 
-    this.loadFromWordpressService.getWordpressPosts( this.url )
-      .subscribe( data => {
-        data.forEach( ( element, index, array ) => {
-          this.articles.push( {
-            _categories: element.categories[ 0 ],
-            _id: element.id,
-            _link: element.link,
-            _title_rendered: element.title.rendered,
-            _sticky: element.sticky,
-            _featuredmedia: element.featured_media,
-            _date: element.date,
-            _htmlexcerpt_rendered: element.excerpt.rendered,
-            _htmlcontent_rendered: element.content.rendered
-          } );
-        } );
-        // console.log('LINE 66');
-        // console.log(this.articles);
-        this.preSelectArticles( this.articles );
-      } );
+  ngOnChanges( changes: { [ propKey: string ]: SimpleChange } ) {
+
+    let log: string[] = [];
+    for ( let propName in changes ) {
+      let changedProp = changes[ propName ];
+      let to = JSON.stringify( changedProp.currentValue );
+      // propName === 'url' ? this.url = to : null;
+      if ( changedProp.isFirstChange() ) {
+        log.push( `Initial value of ${propName} set to ${to}` );
+      } else {
+        let from = JSON.stringify( changedProp.previousValue );
+        log.push( `${propName} changed from ${from} to ${to}` );
+      }
+    }
+    console.log( log );
   }
 
   preSelectArticles( input: Array<WordpressArticle> ) {
@@ -102,4 +85,48 @@ export class ArticlesListingComponent implements OnInit {
     return sourceUrl;
   }
 
+  updateHere( url: string ) {
+    // console.log( 'UPDATE HERE CALLED: ', x );
+    if ( url === '' ) {
+      console.log( url );
+      console.log( 'Do not move anything.' );
+    } else {
+      // this.url = x;
+      url += '/wp-json/wp/v2/';
+      console.log( url );
+
+      this.loadFromWordpressService.getWordpressMediaList( url )
+        .subscribe( data => {
+          data.forEach( ( element, index, array ) => {
+            this.medias.push( {
+              _id: element.id,
+              _guid_rendered: element.guid.rendered,
+              _title_rendered: element.title.rendered,
+              _caption_rendered: element.caption.rendered,
+              _post: element.post
+            } );
+          } );
+        } );
+
+      this.loadFromWordpressService.getWordpressPosts( url )
+        .subscribe( data => {
+          data.forEach( ( element, index, array ) => {
+            this.articles.push( {
+              _categories: element.categories[ 0 ],
+              _id: element.id,
+              _link: element.link,
+              _title_rendered: element.title.rendered,
+              _sticky: element.sticky,
+              _featuredmedia: element.featured_media,
+              _date: element.date,
+              _htmlexcerpt_rendered: element.excerpt.rendered,
+              _htmlcontent_rendered: element.content.rendered
+            } );
+          } );
+          // console.log('LINE 66');
+          // console.log(this.articles);
+          this.preSelectArticles( this.articles );
+        } );
+    }
+  }
 }

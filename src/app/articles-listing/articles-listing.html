@@ -1,5 +1,7 @@
 <p>
-  <span style="font-weight: bold; text-decoration: underline dodgerblue double">Articles Listing:</span>
+  <span style="font-weight: bold; text-decoration: underline dodgerblue double">
+    Articles Listing component:
+  </span>
   Built for {{this.url}}, showing {{this.perCat}} posts per category
 </p>
 <section class="image-collage">
@@ -12,10 +14,10 @@
       {{i + 1}} - {{article._title_rendered}}
     </a>
     <a href="{{article._link}}">
-    <img class="thumbnail"
-         src="{{getImageUrl(article._featuredmedia)}}"
-         alt="#{{article._featuredmedia}}"
-         title="Media #{{article._featuredmedia}}">
+      <img class="thumbnail"
+           src="{{getImageUrl(article._featuredmedia)}}"
+           alt="#{{article._featuredmedia}}"
+           title="Media #{{article._featuredmedia}}">
     </a>
   </article>
 </section>
